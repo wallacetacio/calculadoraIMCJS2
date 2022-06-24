@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&family=Rubik+Moonrocks&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    background: gray;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 5%;
+    background: rgb(14, 128, 128);
+    width: 25%;
+    height: 25%;
+    padding: 10%;
+    border-radius: 50%;
+    color: rgb(80, 255, 246);
+    box-shadow: inset 0 0 1em rgb(0, 0, 0), 0 0 1em rgb(0, 247, 255);
+}
+
+label{ 
+    font-family: 'Rubik Moonrocks', cursive;
+    margin-top: 5%;
+    font-size: 36px;
+}
+
+.erro{
+    border: 2px solid red;
+    color: red;
+}
+
+.erroFont{
+    color: red;
+    font-family: 'Potta One', cursive;
+}
+
+#resultado {
+    font-family: 'Potta One', cursive;
+}
+
+textarea:focus, input:focus {
+    outline: 0;
+    
+}
+
+button {
+    background-color: aqua;
+    font-family: 'Potta One', cursive;
+    margin-top: 5%;
+}
+
+p {
+    margin: 10px;
+    font-size: 24px;
+}
